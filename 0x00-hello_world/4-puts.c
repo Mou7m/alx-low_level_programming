@@ -1,5 +1,9 @@
 #include <stdio.h>
-// print a line of string in the standard output and return zero
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
