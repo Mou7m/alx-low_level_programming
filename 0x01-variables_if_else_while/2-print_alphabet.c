@@ -13,7 +13,10 @@ int main(void)
 	for (i = 0; i < 26; i++)
 	{
 	putchar(alphabet[i]);
+	if (i == 25)
+	{
 	putchar('\n');
+	}
 	}
 	return (0);
 }
